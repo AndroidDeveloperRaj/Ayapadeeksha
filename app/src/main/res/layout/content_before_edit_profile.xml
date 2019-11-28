@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.BeforeEditProfileActivity"
+    tools:showIn="@layout/activity_before_edit_profile">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cVMyProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        app:cardMaxElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/tvMyProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:drawableRight="@drawable/ic_right_arrow_green"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/colorPrimary" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cVTypesOfVendors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        app:cardMaxElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/tvTypesOfVendors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type Of Vendors"
+            android:drawableRight="@drawable/ic_right_arrow_green"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/colorPrimary" />
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

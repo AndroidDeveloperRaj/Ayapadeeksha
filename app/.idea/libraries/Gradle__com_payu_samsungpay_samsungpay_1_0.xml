@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.payu.samsungpay:samsungpay-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/samsungpay-1.0.aar/758e5479b704c73b448877e0e93fd43b/jars/libs/walletsdk-unspecified.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/samsungpay-1.0.aar/758e5479b704c73b448877e0e93fd43b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/samsungpay-1.0.aar/758e5479b704c73b448877e0e93fd43b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payu.samsungpay/samsungpay/1.0/3d336c72294bd52973565e96ba11f53e6ea3b556/samsungpay-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

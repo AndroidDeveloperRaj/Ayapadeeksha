@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shiva.ayapadeeksha">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.MEDIA_CONTENT_CONTROL"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".Utils.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/dlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon">
+        <activity android:name=".Activities.RegistrationOptionsActivity"></activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".Activities.LaunchScreenActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Activities.NavigationDrawerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RegistrationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.AddNewPadiPujaActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_add_new_padi_puja"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.LocationActivity"
+            android:label="@string/title_activity_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.GuruSwamyActivity"
+            android:label="@string/title_activity_guru_swamy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MusicalBandsActivity"
+            android:label="@string/title_activity_musical_bands"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MandapVendorsActivity"
+            android:label="@string/title_activity_mandap_vendors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.AyyappaHotelsActivity"
+            android:label="@string/title_activity_ayyappa_hotels"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditGuruSwamyActivity"
+            android:label="@string/title_activity_edit_guru_swamy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditMandapVendorsActivity"
+            android:label="@string/title_activity_edit_mandap_vendors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditMusicalBandsActivity"
+            android:label="@string/title_activity_edit_musical_bands"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditAyyappaHotelsActivity"
+            android:label="@string/title_activity_edit_ayyappa_hotels"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.BeforeEditProfileActivity"
+            android:label="@string/title_activity_before_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MySubscriptionsActivity"
+            android:label="@string/title_activity_my_subscriptions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+  <activity
+        android:name=".Activities.PaymentGatewayActivity"
+        android:label="@string/title_activity_payment_gateway"
+        android:theme="@style/AppTheme.NoActionBar" />
+        -->
+        <activity
+            android:name=".Activities.EditRegisGuruSwamyActivity"
+            android:label="@string/title_activity_edit_regis_guru_swamy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditRegisMusicalBandActivity"
+            android:label="@string/title_activity_edit_regis_musical_band"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditRegisMandapVendorsActivity"
+            android:label="@string/title_activity_edit_regis_mandap_vendors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditRegisAyyappaHotelsActivity"
+            android:label="@string/title_activity_edit_regis_ayyappa_hotels"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsGuruSwamyActivity"
+            android:label="@string/title_activity_details_guru_swamy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsMusicalBandActivity"
+            android:label="@string/title_activity_details_musical_band"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsMandapVendorsActivity"
+            android:label="@string/title_activity_details_mandap_vendors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsAyyappaHotelsActivity"
+            android:label="@string/title_activity_details_ayyappa_hotels"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsPadipujaActivity"
+            android:label="@string/title_activity_details_padipuja"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.PlayMusicActivity"
+            android:label="@string/title_activity_play_music"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditSwamyProfileActivity"
+            android:label="@string/title_activity_edit_swamy_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.AddNewPostsActivity"
+            android:label="@string/title_activity_add_new_posts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.FriendRequestActivity"
+            android:label="@string/title_activity_friends"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

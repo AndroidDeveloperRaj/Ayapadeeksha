@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_NearByPadiPujaDetails"
+            android:title="Nearby Padi Puja Details" />
+        <item
+            android:id="@+id/nav_GuruSwamysList"
+            android:title="Guru Swamy's List" />
+        <item
+            android:id="@+id/nav_MusicalBands"
+            android:title="Musical Bands" />
+        <item
+            android:id="@+id/nav_MandapVendorsList"
+            android:title="Mandap Vendors List" />
+
+        <item
+            android:id="@+id/nav_AyyapaSwamyHotels"
+            android:title="Ayyapa Swamy Hotels" />
+
+        <item
+            android:id="@+id/nav_Songs"
+            android:title="Songs" />
+
+        <item
+            android:id="@+id/nav_Subscriptions"
+            android:title="My Subscriptions" />
+
+        <item
+            android:id="@+id/nav_ImportanceOfDeeksha"
+            android:title="Importance of Deeksha" />
+
+        <item
+            android:id="@+id/nav_wallposts"
+            android:title="Wall Posts" />
+        <item
+            android:id="@+id/nav_friends"
+            android:title="Friends"
+            android:visible="false"
+            />
+
+
+    </group>
+
+</menu>
+
+    <!-- android:icon="@drawable/ic_importance_of_deeksha"-->
